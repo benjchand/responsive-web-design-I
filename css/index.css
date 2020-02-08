@@ -164,14 +164,10 @@ footer {
         width: 98%;
         background-color: lightblue;
     }
-    /* header nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5px;
-
+    header nav {
+        padding-top: 60px;
     }
+    /* 
     header nav a{
         display: flex;
         justify-content: center;
@@ -182,7 +178,10 @@ footer {
         width: 100%;
         font-size: 18px;
     }
+    */
     #header-logo {
+        position: relative;
+        top: -50px;
         order: -1;
         padding: 35px 0;
     }
@@ -191,9 +190,9 @@ footer {
     }
     .cta-text {
         
-        margin-top: 45px;
         margin-bottom: 35px
     }
+    /*
     .cta {
         width: 98%;
     }
@@ -271,9 +270,20 @@ footer {
         width: 100%;
         font-size: 18px;
     }
-    #header-logo {
+    nav div {
+        
         order: -1;
-        padding: 35px 0;
+        width: 100%;
+
+    }
+    nav div a{
+        
+        height: 52px;
+        text-align: center;
+        border-bottom: 1px solid black;
+        width: 100%;
+        font-size: 18px;
+        padding: 32px 0;
     }
     .cta img {
         display: none;
